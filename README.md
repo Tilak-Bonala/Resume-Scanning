@@ -1,17 +1,6 @@
 📌 Introduction
 The Resume Screening project processes and classifies resumes based on their content using machine learning models. It applies text cleaning, tokenization, vectorization, and model training to achieve high classification accuracy. The classifier helps in sorting resumes into categories like Data Science, HR, Software Engineer, etc.
 
-⚙️ Installation
-Clone the repository and install the required Python packages:
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/resume-screening.git
-cd resume-screening
-pip install -r requirements.txt
-Alternatively, open the project in Google Colab to run immediately.
-
 🚀 Usage
 Load Dataset: Load the ResumeDataSet.csv containing resumes and their corresponding job categories.
 
