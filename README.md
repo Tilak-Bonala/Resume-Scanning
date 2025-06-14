@@ -76,14 +76,6 @@ Accuracy on training and test sets
 
 Precision, Recall, F1-score (using classification_report)
 
-🧪 Examples
-python
-Copy
-Edit
-clf=OneVsRestClassifier(KNeighborsClassifier())
-clf.fit(X_train, y_train)
-y_predict = clf.predict(X_test)
-print(classification_report(y_test, y_predict))
 🛠 Troubleshooting
 Ensure NLTK data packages are downloaded.
 
